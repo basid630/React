@@ -1,0 +1,13 @@
+.card{
+    background-color: rosybrown;
+    max-width: 200px;
+    padding: 20px;
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+}
+
+.card img{
+    width: 180px;
+}

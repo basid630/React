@@ -1,0 +1,22 @@
+{
+"courses" : [
+    {
+      "id" : 1,  
+      "name": "React",
+      "price": 349,
+      "image": "/women.jpg"
+    },
+    {
+      "id" : 2,
+      "name": "Angular",
+      "price": 249,
+      "image": "/smile.jpg"
+    },
+    {
+      "id" : 3,
+      "name": "Python",
+      "price": 129,
+      "image": "/nature.jpg"
+    }
+]
+}
