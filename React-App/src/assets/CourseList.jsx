@@ -3,7 +3,7 @@ import Course from './course';
 
 function CourseList() {
   
-  const [courses,dummy, error] = useFetch();
+  const [courses,dummy, error] = useFetch('http://localhost:3000/courses');
 
   function handleDelete(id){
     const newCourses = courses.filter((course) => course.id != id)
