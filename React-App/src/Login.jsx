@@ -12,7 +12,7 @@ function Login (){
 
         function handlePwd2Change (event){
             setPwd2(event.target.value);
-            if (pwd1=event.target.value){
+            if (pwd1 === event.target.value){
                 console.log("same");
                 setSame(true);
             }
