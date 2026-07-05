@@ -3,11 +3,13 @@ import { createRoot } from 'react-dom/client'
 import Login from './Login.jsx'
 import Home from './Home.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import NotFound from './NotFound.jsx'
 
 const router = createBrowserRouter([
   {
     path : '/',
-    element : <Home/>
+    element : <Home/>,
+    errorElement : <NotFound/>
   },
   {
     path : '/login',
